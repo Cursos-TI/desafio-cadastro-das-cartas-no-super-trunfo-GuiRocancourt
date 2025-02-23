@@ -51,7 +51,7 @@ int main () {
 
     printf("Insira os Dados da Carta 2 \n");
     printf("Digite a letra que representa o Estado \n");
-    scanf("%c", &estado2);
+    scanf(" %c", &estado2);         // Foi incluido um espaco antes do % para que essa linha nao seja pulada 
 
     printf("Digite o codigo da carta \n");
     scanf("%s", &codigoCarta2);
